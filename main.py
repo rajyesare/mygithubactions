@@ -1,8 +1,16 @@
+def cube(num):
+    return pow(num,3)
+    print(num)
+
+result = cube(3)
+print(result)
+
+
 def hello():
-  print("Hello")
+    print("Hello")
   
 def bye():
-  print("bye")
+    print("bye")
   
 def fnsayhi(name,age):
     print("Hello " + name + ", you are " + str(age))
