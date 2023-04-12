@@ -1,7 +1,8 @@
-def hello()
+def hello():
   print "Hello"
+  bye()
 
-def bye()
+def bye():
  print "bye"
   
-print(hello());
+print(hello())
