@@ -13,7 +13,7 @@ jobs:
         with:
           repository: rajyesare/mygithubactions
 
-      - name: Checkout code
+      - name: run super-lint
         uses: github/super-linter@v4.9.5
         env:
           DEFAULT_BRANCH: main
